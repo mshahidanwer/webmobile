@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+a:hover {
+	text-decoration: underline !important;}
+.navbar-brand:hover {letter-spacing: 1px;}
+.navbar-brand { transform: all 0.3s ease-in-out;}
+
+
+
+
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+@media (min-width: 768px)
+.navbar-static-top {
+    border-radius: 0;
+}
+.navbar-static-top {
+    z-index: 1000;
+    border-width: 0 0 1px;
+}
+
+
+
+
+.nav > li.dropdown.open {
+  position: static;
+}
+
+.nav > li.dropdown.open .dropdown-menu {
+  display: table !important;
+  border-radius: 0px;
+  width: 100% !important;
+  left: 0;
+  right: 0;
+}
+
+.dropdown-menu > li {
+  display: table-cell;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 767px) {
+  .dropdown-menu > li {
+    display: block;
+  }
+}
+
+
+
+
+.dropdown-menu{
+	-webkit-box-shadow: 0 0 6px rgba(22,32,32,.16), 0 3px 6px rgba(22,32,32,.23);
+    box-shadow: 0 0 6px rgba(22,32,32,.16), 0 3px 6px rgba(22,32,32,.23);
+	background:#002838;
+	padding-top: 2.22222rem;
+    padding-bottom: 2.22222rem;
+	padding-right: 1.33333rem;
+    padding-left: 1.33333rem;
+	color:white;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    
+    z-index: 1000;
+    
+    float: left;
+    min-width: 160px;
+    
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    
+    
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #002838;
+	text-decoration: underline;
+}
+
+
+.dp-shadow {
+	-webkit-box-shadow: 0 0 6px rgba(22,32,32,.16), 0 3px 6px rgba(22,32,32,.23);
+    box-shadow: 0 0 6px rgba(22,32,32,.16), 0 3px 6px rgba(22,32,32,.23);
+}
+
+ul.none {margin:0; padding:0; list-style: none;}
+ul.none li {padding:12px 6px 12px 25px;}
+ul.none li:hover {background:#083d4f;}
+ul.none li.none-bullet:before, .none-bullet  {
+	content: " ";
+}
+ul.none li:before {
+    margin-top: .11111rem;
+    margin-right: .44444rem;
+    font-size: 2rem;
+    line-height: .88889rem;
+    color: #0ca750;
+    content: "�";
+}
+
+.hv:hover {background:#083d4f;}
+.hv {
+	transition: all 0.3s ease-in-out;
+	min-height:180px;
+	padding:20px;
+}
